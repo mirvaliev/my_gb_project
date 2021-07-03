@@ -31,3 +31,9 @@ func quadricEquation (_ a: Double, _ b: Double, _ c: Double) -> Double {
 
 var a = quadricEquation(2.0, 8.0, 0.0)
 
+
+/*
+ Дискрименант уравнения D = 64.0
+ Первый корень уравнения х1 = 0.0
+ Второй корень уравнения х2 = -16.0
+ */
