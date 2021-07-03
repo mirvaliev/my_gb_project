@@ -21,9 +21,9 @@ func quadricEquation (_ a: Double, _ b: Double, _ c: Double) -> Double {
     } else if (disc < 0) {
         print("У данного уровнения нет корней ")
     } else {
-        result1 = (-b + Double(disc)) / 2 * a
+        result1 = (-b + disc.squareRoot()) / 2 * a
         print("Первый корень уравнения х1 = \(result1)")
-        result2 = (-b - Double(disc)) / 2 * a
+        result2 = (-b - disc.squareRoot()) / 2 * a
         print("Второй корень уравнения х2 = \(result2)")
     }
     return 0
