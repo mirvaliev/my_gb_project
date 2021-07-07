@@ -20,4 +20,10 @@ func rightTriangle (_ legA: Double, _ legB: Double) -> Double {
     return 0
 }
 
-var a = rightTriangle(15, 20)
+var a = rightTriangle(56, 24)
+
+/*
+ Гипотинуза триугольника С = 61.0
+ Площадь триугольника равна S = 672.0
+ Периметр триугольника P = 141.0
+ */
